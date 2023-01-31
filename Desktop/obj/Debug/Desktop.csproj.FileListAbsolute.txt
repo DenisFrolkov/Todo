@@ -17,3 +17,5 @@ C:\Users\denis\RiderProjects\Todo\Desktop\obj\Debug\Desktop.csproj.GenerateResou
 C:\Users\denis\RiderProjects\Todo\Desktop\obj\Debug\Desktop.csproj.CoreCompileInputs.cache
 C:\Users\denis\RiderProjects\Todo\Desktop\obj\Debug\Desktop.exe
 C:\Users\denis\RiderProjects\Todo\Desktop\obj\Debug\Desktop.pdb
+C:\Users\denis\RiderProjects\Todo\Desktop\obj\Debug\MainEmpty.g.cs
+C:\Users\denis\RiderProjects\Todo\Desktop\obj\Debug\MainEmpty.baml
