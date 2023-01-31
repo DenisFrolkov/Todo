@@ -8,5 +8,13 @@ namespace Desktop
         {
             InitializeComponent();
         }
+
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+        }
+
+        private void Button_Register(object sender, RoutedEventArgs e)
+        {
+        }
     }
 }

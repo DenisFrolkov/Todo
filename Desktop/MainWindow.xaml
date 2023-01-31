@@ -5,8 +5,141 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Desktop"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="600" Width="800">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <WrapPanel Grid.RowSpan="11">
+            <Image
+                Height="150" 
+                Width="150" 
+                Margin="70, 70, 0, 0" 
+                Source="/images/Logo.png"/>
+        </WrapPanel>
+        <WrapPanel 
+            Margin="0, 70, 95, 0" 
+            Grid.Column = "1" 
+            Grid.Row="0">
+            <Label 
+                Padding="0"
+                FontSize="32" 
+                Content = "Добро пожаловать!"
+                FontFamily="Actor-Regular">
+            </Label>
+        </WrapPanel>
+        <WrapPanel 
+            Margin="0, 108, 336, 10" 
+            Grid.Column = "1" 
+            Grid.Row="1">
+            <Label
+                Padding="0"
+                FontSize="20" 
+                Content = "Почта"
+                FontFamily="Actor-Regular">
+            </Label>
+        </WrapPanel>
+        <WrapPanel 
+            Margin="0, 0, 74, 0" 
+            Grid.Column = "1" 
+            Grid.Row="2">
+            <TextBox
+                Name="TextBoxEmail"
+                BorderBrush="#EDEDED" 
+                Height="38" 
+                Width="314"
+                FontSize="18">
+            </TextBox>
+        </WrapPanel>
+        <WrapPanel 
+            Margin="0, 17, 326, 13" 
+            Grid.Column = "1" 
+            Grid.Row="3">
+            <Label
+                Padding="0"
+                FontSize="20" 
+                Content = "Пароль"
+                FontFamily="Actor-Regular">
+            </Label>
+        </WrapPanel>
+        <WrapPanel
+            Margin="0, 0, 74, 12"
+            Grid.Column = "1" 
+            Grid.Row="4">
+            <TextBox
+                Name="TextBoxPassword"
+                BorderBrush="#EDEDED" 
+                Height="34" 
+                Width="314" 
+                FontSize="18">
+            </TextBox>
+        </WrapPanel>
+        <WrapPanel 
+            Margin="134, 0, 74, 16"
+            Grid.Column = "1"
+            Grid.Row="5">
+            <Label
+                Padding="0"
+                FontSize="18" 
+                Content = "Восстановить пароль"
+                FontFamily="Actor-Regular">
+            </Label>
+        </WrapPanel>
+        <WrapPanel
+            Margin="0, 8, 0, 5"
+            Grid.Column = "1" 
+            Grid.Row="6">
+            <Button
+                Name="Button_Enter"
+                Click="ButtonEnter"
+                FontSize="18" 
+                Content = "Войти" 
+                Padding="130, 13, 140, 13" 
+                FontFamily="Actor-Regular"
+                Foreground="White"
+                Background="#F96060"
+                BorderBrush="#F96060" >
+                <Button.Resources>
+                    <Style 
+                        TargetType="Border">
+                        <Setter 
+                            Property="CornerRadius" Value="20, 20, 5, 5"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+        </WrapPanel>
+        <WrapPanel
+            Grid.Column = "1" 
+            Grid.Row="7">
+            <Button
+                Name="Button_Regist"
+                Click="ButtonRegist"
+                FontSize="18" 
+                Content = "Регистрация" 
+                Padding="100, 13, 118, 13"
+                FontFamily="Actor-Regular"
+                Foreground="White"
+                Background="#F96060"
+                BorderBrush="#F96060">
+                <Button.Resources>
+                    <Style 
+                        TargetType="Border">
+                        <Setter 
+                            Property="CornerRadius" Value="5, 5, 20, 20"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+        </WrapPanel>
     </Grid>
 </Window>

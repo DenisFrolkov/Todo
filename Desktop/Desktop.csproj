@@ -84,5 +84,13 @@
     <ItemGroup>
         <None Include="App.config" />
     </ItemGroup>
+    <ItemGroup>
+      <Content Include="fonts\Actor-Regular.eot" />
+      <Content Include="fonts\Actor-Regular.ttf" />
+      <Content Include="fonts\Actor-Regular.woff" />
+      <Content Include="fonts\Actor-Regular.woff2" />
+      <Content Include="fonts\Actor_regular.ttf" />
+      <Resource Include="images\Logo.png" />
+    </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

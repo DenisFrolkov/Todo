@@ -5,8 +5,183 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:local="clr-namespace:Desktop"
         mc:Ignorable="d"
-        Title="Registration" Height="450" Width="800">
+        Title="Registration" Height="600" Width="800">
     <Grid>
-        
+            <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <WrapPanel
+            Grid.Column = "0" 
+            Grid.Row="0"
+            Grid.RowSpan="11">
+            <Image
+                Height="150" 
+                Width="150" 
+                Margin="70, 70, 0, 0" 
+                Source="/images/Logo.png"/>
+        </WrapPanel>
+        <WrapPanel 
+            Margin="0, 50, 190, 0" 
+            Grid.Column = "1" 
+            Grid.Row="0">
+            <Label 
+                Padding="0"
+                FontSize="32" 
+                Content = "Welcome back"
+                FontFamily="Actor-Regular">
+            </Label>
+        </WrapPanel>
+        <WrapPanel 
+            Margin="0, 6, 217, 5" 
+            Grid.Column = "1" 
+            Grid.Row="1">
+            <Label
+                Padding="0"
+                FontSize="20" 
+                Content = "Имя пользователя"
+                FontFamily="Actor-Regular">
+            </Label>
+        </WrapPanel>
+        <WrapPanel 
+            Margin="0, 5, 74, 5" 
+            Grid.Column = "1" 
+            Grid.Row="2">
+            <TextBox
+                Name="TextBoxName"
+                BorderBrush="#EDEDED" 
+                Height="34" 
+                Width="326"
+                FontSize="18">
+            </TextBox>
+        </WrapPanel>
+        <WrapPanel 
+            Margin="0, 5, 270, 5" 
+            Grid.Column = "1" 
+            Grid.Row="3">
+            <Label
+                Padding="0"
+                FontSize="20" 
+                Content = "Ваша почта"
+                FontFamily="Actor-Regular">
+            </Label>
+        </WrapPanel>
+        <WrapPanel 
+            Margin="0, 5, 74, 5" 
+            Grid.Column = "1" 
+            Grid.Row="4">
+            <TextBox
+                Name="TextBoxEmail"
+                BorderBrush="#EDEDED" 
+                Height="34" 
+                Width="326"
+                FontSize="18">
+            </TextBox>
+        </WrapPanel>
+        <WrapPanel 
+            Margin="0, 5, 318, 8" 
+            Grid.Column = "1" 
+            Grid.Row="5">
+            <Label
+                Padding="0"
+                FontSize="20" 
+                Content = "Пароль"
+                FontFamily="Actor-Regular">
+            </Label>
+        </WrapPanel>
+        <WrapPanel 
+            Margin="0, 8, 74, 5" 
+            Grid.Column = "1" 
+            Grid.Row="6">
+            <TextBox
+                Name="TextBoxPassword"
+                BorderBrush="#EDEDED" 
+                Height="34" 
+                Width="326"
+                FontSize="18">
+            </TextBox>
+        </WrapPanel>
+        <WrapPanel 
+            Margin="0, 5, 200, 6" 
+            Grid.Column = "1" 
+            Grid.Row="7">
+            <Label
+                Padding="0"
+                FontSize="20" 
+                Content = "Повторите пароль"
+                FontFamily="Actor-Regular">
+            </Label>
+        </WrapPanel>
+        <WrapPanel 
+            Margin="0, 6, 74, 5" 
+            Grid.Column = "1" 
+            Grid.Row="8">
+            <TextBox
+                Name="TextBoxRepeat"
+                BorderBrush="#EDEDED" 
+                Height="34" 
+                Width="326"
+                FontSize="18">
+            </TextBox>
+        </WrapPanel>
+        <WrapPanel
+            Margin="0, 8, 74, 5"
+            Grid.Column = "1" 
+            Grid.Row="9">
+            <Button
+                Name="ButtonRegister"
+                Click="Button_Register"
+                FontSize="18" 
+                Content = "Зарегистрироваться" 
+                Padding="70, 13, 78, 13" 
+                FontFamily="Actor-Regular"
+                Foreground="White"
+                Background="#F96060"
+                BorderBrush="#F96060" >
+                <Button.Resources>
+                    <Style 
+                        TargetType="Border">
+                        <Setter 
+                            Property="CornerRadius" Value="20, 20, 5, 5"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+        </WrapPanel>
+        <WrapPanel
+            Margin="0, 5, 74, 5"
+            Grid.Column = "1" 
+            Grid.Row="10">
+            <Button
+                Name="Buttom_Back"
+                Click="Back_Click"
+                FontSize="18" 
+                Content = "Назад" 
+                Padding="130, 13, 136, 13"
+                FontFamily="Actor-Regular"
+                Foreground="White"
+                Background="#F96060"
+                BorderBrush="#F96060">
+                <Button.Resources>
+                    <Style 
+                        TargetType="Border">
+                        <Setter 
+                            Property="CornerRadius" Value="5, 5, 20, 20"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+        </WrapPanel>
     </Grid>
 </Window>
