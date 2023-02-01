@@ -8,22 +8,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9739b924-6e20-4744-9d08-aa551e35fc67" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Desktop/MainEmpty.xaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Desktop/Manager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Desktop/Validator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Todo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Todo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/Desktop.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/Desktop.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/MainWindow.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/Registration.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/Registration.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/Validator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/Validator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Desktop/bin/Debug/Desktop.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/bin/Debug/Desktop.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Desktop/bin/Debug/Desktop.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/bin/Debug/Desktop.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop.g.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop_MarkupCompile.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop_MarkupCompile.lref" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +30,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/Desktop/Todo2-Lab3/Desktop/Registration.xaml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Desktop/obj/Debug/MainEmpty.g.i.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Desktop/obj/Debug/images.g.i.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Desktop/obj/Debug/MainEmpty.g.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/Todo2-Lab3/Desktop/MainEmpty.xaml.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Desktop/obj/Debug/images.g.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/Todo2-Lab3/Desktop/MainWindow.xaml.cs" root0="SKIP_HIGHLIGHTING" />
@@ -59,6 +51,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -92,7 +85,8 @@
       <workItem from="1675182305775" duration="489000" />
       <workItem from="1675182872761" duration="32000" />
       <workItem from="1675182936977" duration="1283000" />
-      <workItem from="1675184546813" duration="2365000" />
+      <workItem from="1675184546813" duration="2645000" />
+      <workItem from="1675250179022" duration="3290000" />
     </task>
     <task id="LOCAL-00001" summary="init branch">
       <created>1675183071879</created>
@@ -108,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675183549411</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Сделал проверку введеных данных и окно MainEmpty">
+      <created>1675187196519</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675187196519</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +146,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="init branch" />
     <MESSAGE value="Сделал MainWindow и Registration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал MainWindow и Registration" />
+    <MESSAGE value="Сделал проверку введеных данных и окно MainEmpty" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал проверку введеных данных и окно MainEmpty" />
   </component>
 </project>

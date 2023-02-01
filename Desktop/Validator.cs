@@ -1,6 +1,7 @@
 using System;
 using System.Diagnostics.Eventing.Reader;
 using System.Text.RegularExpressions;
+using System.Net.Mail;
 using System.Windows.Controls;
 
 namespace Desktop
@@ -19,13 +20,22 @@ namespace Desktop
             }
         }
 
-        public static string ValidEmail(string email)
+        public static string ValidEmail(string mailAddress)
         {
-            Regex Email = new Regex(@"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$");
-            Match tested = Email.Match(email);
-            if (tested.Success) return null;
+            try
             {
-                return "Адрес должен иметь конструкцию (denisfrolkov@mail.ru)";
+                if (Regex.IsMatch(mailAddress, @"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$"))
+                {
+                    return null;
+                }
+                else
+                {
+                    return "Не правильно введен email. Он должен иметь вид frolkovdenis@mail.ru";
+                }
+            }
+            catch
+            {
+                return "Не правильно введен email. Он должен иметь вид frolkovdenis@mail.ru";
             }
         }
 
@@ -43,13 +53,13 @@ namespace Desktop
 
         public static string ValidRepeat(string password, string repeat)
         {
-            if (password == repeat)
+            if (password == repeat && ValidPass(password) == null)
             {
                 return null;
             }
             else
             {
-                return "Пароли отличаються";
+                return "Пароли отличаются";
             }
         }
     }
