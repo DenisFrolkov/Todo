@@ -1,8 +1,12 @@
 using System.Windows;
+using Desktop.Repository;
+using Entities;
+
+// using Entities.Models;
 
 namespace Desktop
 {
-    public partial class Registration : Window
+    public partial class Registration
     {
         public Registration()
         {
@@ -34,16 +38,26 @@ namespace Desktop
             }
 
             if (Name == null && Email == null && Password == null && Repeat == null)
-            {
-                var wind = new MainEmpty();
-                wind.Show();
-                Manager.RegistrationWindow.Close();
+            {   var RegistrationUser = UserRepository.RegistrationUser(new UserModel(TextBoxName.Text, TextBoxEmail.Text, TextBoxPassword.Text));
+                if (RegistrationUser != null)
+                {
+                    var wind = new MainEmpty();
+                    wind.Show();
+                    Hide();
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Такой пользователь уже существет");
+                }
             }
         }
 
         private void Back_Click(object sender, RoutedEventArgs e)
         {
-            Manager.CurrentWindow.Show();
+            var wind = new MainWindow();
+            wind.Show();
+            Hide();
             this.Close();
         }
     }

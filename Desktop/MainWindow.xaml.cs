@@ -1,21 +1,15 @@
-﻿using System;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Navigation;
+using Desktop.Repository;
+using Entities;
 
 namespace Desktop
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
-            Manager.CurrentWindow = this;
         }
-
         private void TextBox_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
         {
 
@@ -25,14 +19,7 @@ namespace Desktop
         {
             var wind = new MainEmpty();
             wind.Show();
-            Manager.CurrentWindow.Hide();
-
-            //Back
-
-            Manager.CurrentWindow.Show();
-            this.Close();
-
-            // var PassBox = Validator.ValidPass(ValidPass.Text);
+            Hide();
         }
         
 
@@ -40,7 +27,7 @@ namespace Desktop
         {
             var Email = Validator.ValidEmail(TextBoxEmail.Text);
             var Password = Validator.ValidPass(TextBoxPassword.Text);
-
+            
             if (Email != null)
             {
                 MessageBox.Show(Email);
@@ -50,11 +37,20 @@ namespace Desktop
                 MessageBox.Show(Password);
             }
 
-            if (Email == null && Password == null )
+            if (Email == null && Password == null)
             {
-                var wind = new MainEmpty();
-                wind.Show();
-                Hide();
+                var loginUser = UserRepository.LoginUser(new UserModel("", TextBoxEmail.Text, TextBoxPassword.Text));
+                if (loginUser != null)
+                {
+                    var wind = new MainEmpty();
+                    wind.Show();
+                    Hide();
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Пользователь не зарегестрирован!");
+                }
             }
         }
 
@@ -63,6 +59,8 @@ namespace Desktop
             var wind = new Registration();
             wind.Show();
             Hide();
+            this.Close();
         }
+
     }
 }

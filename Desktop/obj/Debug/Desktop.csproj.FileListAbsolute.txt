@@ -19,3 +19,6 @@ C:\Users\denis\RiderProjects\Todo\Desktop\obj\Debug\Desktop.exe
 C:\Users\denis\RiderProjects\Todo\Desktop\obj\Debug\Desktop.pdb
 C:\Users\denis\RiderProjects\Todo\Desktop\obj\Debug\MainEmpty.g.cs
 C:\Users\denis\RiderProjects\Todo\Desktop\obj\Debug\MainEmpty.baml
+C:\Users\denis\RiderProjects\Todo\Desktop\bin\Debug\Entities.dll
+C:\Users\denis\RiderProjects\Todo\Desktop\bin\Debug\Entities.pdb
+C:\Users\denis\RiderProjects\Todo\Desktop\obj\Debug\Desktop.csproj.CopyComplete

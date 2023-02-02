@@ -8,12 +8,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9739b924-6e20-4744-9d08-aa551e35fc67" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Desktop/Repository/UserRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Todo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Todo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/Validator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/Validator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/Desktop.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/Desktop.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/MainWindow.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/MainWindow.xaml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/Registration.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/Registration.xaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Desktop/bin/Debug/Desktop.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/bin/Debug/Desktop.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Desktop/bin/Debug/Desktop.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/bin/Debug/Desktop.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop.g.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop_MarkupCompile.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop_MarkupCompile.lref" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/obj/Debug/MainWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/obj/Debug/MainWindow.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/obj/Debug/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/obj/Debug/MainWindow.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/obj/Debug/MainWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/obj/Debug/MainWindow.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Todo.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Todo.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +37,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lab1" />
+        <entry key="$PROJECT_DIR$" value="Lab2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,10 +45,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/Desktop/Todo2-Lab3/Desktop/Registration.xaml.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Desktop/obj/Debug/MainEmpty.g.i.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Desktop/obj/Debug/images.g.i.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Desktop/obj/Debug/MainEmpty.g.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/Todo2-Lab3/Desktop/MainEmpty.xaml.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Desktop/obj/Debug/images.g.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/Todo2-Lab3/Desktop/MainWindow.xaml.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2L6CjI5FCHCSnDKCKhu3ungEqR8" />
@@ -86,7 +97,10 @@
       <workItem from="1675182872761" duration="32000" />
       <workItem from="1675182936977" duration="1283000" />
       <workItem from="1675184546813" duration="2645000" />
-      <workItem from="1675250179022" duration="3290000" />
+      <workItem from="1675250179022" duration="5751000" />
+      <workItem from="1675266630716" duration="1704000" />
+      <workItem from="1675340498510" duration="1237000" />
+      <workItem from="1675344101448" duration="5030000" />
     </task>
     <task id="LOCAL-00001" summary="init branch">
       <created>1675183071879</created>
@@ -109,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675187196519</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Сделал проверку TextBox и MainEmpty">
+      <created>1675264126988</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675264126989</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,7 +150,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Lab2" />
+                        <option value="Lab3" />
                       </list>
                     </value>
                   </entry>
@@ -147,6 +168,7 @@
     <MESSAGE value="init branch" />
     <MESSAGE value="Сделал MainWindow и Registration" />
     <MESSAGE value="Сделал проверку введеных данных и окно MainEmpty" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал проверку введеных данных и окно MainEmpty" />
+    <MESSAGE value="Сделал проверку TextBox и MainEmpty" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал проверку TextBox и MainEmpty" />
   </component>
 </project>
