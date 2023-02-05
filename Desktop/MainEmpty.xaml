@@ -19,7 +19,7 @@
                 Height="75"
                 Width="75"
                 Margin="10, 10, 0, 0" 
-                Source="/images/profile.png"/>
+                Source="/images/profil.png"/>
         </WrapPanel>
         <WrapPanel 
             Margin="150, 14, 222, 0" 

@@ -93,6 +93,7 @@
       <Content Include="fonts\Actor-Regular.woff" />
       <Content Include="fonts\Actor-Regular.woff2" />
       <Content Include="fonts\Actor_regular.ttf" />
+      <Resource Include="images\profil.png" />
       <Resource Include="images\Logo.png" />
     </ItemGroup>
     <ItemGroup>

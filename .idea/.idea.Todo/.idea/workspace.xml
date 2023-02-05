@@ -8,26 +8,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9739b924-6e20-4744-9d08-aa551e35fc67" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Desktop/Repository/UserRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Todo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Todo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Desktop/images/profil.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Desktop/Desktop.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/Desktop.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/MainWindow.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/MainWindow.xaml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/Registration.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/Registration.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/bin/Debug/Desktop.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/bin/Debug/Desktop.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/bin/Debug/Desktop.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/bin/Debug/Desktop.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/MainEmpty.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/MainEmpty.xaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop.g.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop_MarkupCompile.cache" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Desktop/obj/Debug/Desktop_MarkupCompile.lref" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/obj/Debug/MainWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/obj/Debug/MainWindow.baml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/obj/Debug/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/obj/Debug/MainWindow.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desktop/obj/Debug/MainWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/obj/Debug/MainWindow.g.i.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todo.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Todo.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/obj/Debug/MainEmpty.baml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/obj/Debug/MainWindow.baml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desktop/obj/Debug/Registration.baml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lab2" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
